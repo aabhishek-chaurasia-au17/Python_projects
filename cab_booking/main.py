@@ -1,7 +1,3 @@
-from show import *
-e = show()
+from Car import car
 
-
-e.DisplayTitleBar()
-e.DisplayMenuOptions()
-e.WorkExecuteOperation()
+mainRun()
