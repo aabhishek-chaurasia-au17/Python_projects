@@ -19,11 +19,7 @@ class getSingleOrder_Selection(RajinderDaDhaba, PindBalluchi, DharamGaram):
         for key in D.menu_C:
             print(key, ':', D.menu_C[key])
 
-        # print("TODAY's MENU FOR SINGLE ORDER: ",self.list_of_items )
-        # print()
-
-         # approach1 restaurant selection strategy as lowest price offer
-
+        
         self.item_name = input("Enter the food you wish to order: ")
         print()
 
